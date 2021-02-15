@@ -14,15 +14,13 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Android
 export ANDROID_HOME=~/Library/Android/sdk
-
-# Emscripten
-export PATH=$PATH:/opt/emsdk_portable:/opt/emsdk_portable/clang/e1.16.0_64bit:/opt/emsdk_portable/node/0.10.18_64bit/bin:/opt/emsdk_portable/emscripten/1.16.0
+export KEYSTORE_DIR=~/Dropbox/pp_skogappar/android/
 
 # PHP
 export PATH=$PATH:/Applications/MAMP/bin/php/php5.4.10/bin
 
 # CocoaPods
-export POD_LOCAL_HOME=~/Development/PodsLocal
+export POD_LOCAL_HOME=~/projects
 
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
@@ -43,3 +41,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Misc
 export THEOS=/opt/theos
+
+# Node
+export PATH=$PATH:/usr/local/git/bin:/usr/local/bin
+
+export PATH=${PATH}:/usr/bin/python3
